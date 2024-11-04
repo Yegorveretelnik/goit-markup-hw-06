@@ -21,7 +21,7 @@
             crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
-
+ 
 <body>
 <header class="header">
     <div class="container containerone">
@@ -35,7 +35,64 @@
         <li><a href="tel:+110001111111" class="listtwo">+11 (000) 111-11-11</a></li>
     </ul></address>
 </div>
+
+<div class="mobile-menu" data-menu>
+    <div class="container mobile-menu-container">
+        <button class="modalwindowbutton"><svg width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+        </svg></button>
+        <ul class="mobile-menu-list">
+            <li class="mobile-menu-list-item">
+                <a href="./index.html" >Studio</a>
+            </li>
+            <li class="mobile-menu-list-item">
+                <a href="" >Portfolio</a>
+            </li>
+            <li class="mobile-menu-list-item">
+                <a href="" >Contacts</a>
+            </li>
+        </ul>
+        <ul class="mobile-menu-adddress">
+            <li class="mobile-menu-adddress-item">+11 (000) 111-11-11</li>
+            <li class="mobile-menu-adddress-item">info@devstudio.com</li>
+        </ul>
+
+        <ul class="mobile-menu-social">
+            <li class="mobile-menu-social-item">
+                <a href="" class="mobilemenulink">
+                    <svg width="16" height="16" class="svg">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-menu-social-item">
+                <a href="" class="mobilemenulink">
+                    <svg width="16" height="16" class="svg">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-menu-social-item">
+                <a href="" class="mobilemenulink">
+                    <svg width="16" height="16" class="svg">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-menu-social-item">
+                <a href="" class="mobilemenulink">
+                    <svg width="16" height="16" class="svg">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
 </header>
+
 
 
 <main>
@@ -69,7 +126,7 @@
 
 
 <section class="sectionthree section"><div class="container"><h2 class="headertwo">Our Team</h2><ul class="sectionthreelist">
-<li class="sectionthree-li"><img src="./images/TeamCard1.jpg" alt="productdesigner"
+<li class="sectionthree-li"><img srcset="./images/TeamCard1.jpg 1x, ./images/TeamCard1-2x.jpg 2x" src="./images/TeamCard1.jpg" alt="productdesigner"
     width="264" /><div class="containerlist"><h3 class="sectiontwo-list-header team">Mark Guerrero</h3><p class="text team">Product Designer</p><ul class="sectionthreeiconslist"><li class="sectionthreeicon"><a class="sectionthreelink" href="instagram"><svg class="svg" width="16" height="16">
         <use href="./images/icons.svg#icon-instagram"> </use>
     </svg></a></li><li class="sectionthreeicon"><a class="sectionthreelink" href="twitter"><svg class="svg" width="16" height="16">
@@ -79,7 +136,7 @@
             </svg></a></li><li class="sectionthreeicon"><a class="sectionthreelink" href="linkedin"><svg class="svg" width="16" height="16">
                     <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg></a></li></ul></div></li>
-<li class="sectionthree-li"><img src="./images/TeamCard2.jpg" alt="frontenddeveloper"
+<li class="sectionthree-li"><img srcset="./images/TeamCard2.jpg 1x, ./images/TeamCard2-2x.jpg 2x src="./images/TeamCard2.jpg" alt="frontenddeveloper"
     width="264" /><div class="containerlist"><h3 class="sectiontwo-list-header team">Tom Ford</h3><p class="text team">Frontend Developer</p><ul class="sectionthreeiconslist">
         <li class="sectionthreeicon"><a class="sectionthreelink" href="instagram"><svg class="svg" width="16" height="16">
                 <use href="./images/icons.svg#icon-instagram"> </use>
@@ -94,7 +151,7 @@
                 <use href="./images/icons.svg#icon-linkedin"></use>
             </svg></a></li>
     </ul></div></li>
-<li class="sectionthree-li"><img src="./images/TeamCard3.jpg" alt="marketing"
+<li class="sectionthree-li"><img srcset="./images/TeamCard3.jpg 1x, ./images/TeamCard3-2x.jpg 2x src="./images/TeamCard3.jpg" alt="marketing"
     width="264" /><div class="containerlist"><h3 class="sectiontwo-list-header team">Camila Garcia</h3><p class="text team" >Marketing</p><ul class="sectionthreeiconslist">
         <li class="sectionthreeicon"><a class="sectionthreelink" href="instagram"><svg class="svg" width="16" height="16">
                 <use href="./images/icons.svg#icon-instagram"> </use>
@@ -109,7 +166,7 @@
                 <use href="./images/icons.svg#icon-linkedin"></use>
             </svg></a></li>
     </ul></div></li>
-<li class="sectionthree-li"><img src="./images/TeamCard4.jpg" alt="uidesigner"
+<li class="sectionthree-li"><img srcset="./images/TeamCard4.jpg 1x, ./images/TeamCard4-2x.jpg 2x src="./images/TeamCard4.jpg" alt="uidesigner"
     width="264" /><div class="containerlist"><h3 class="sectiontwo-list-header team">Daniel Wilson</h3><p class="text team">UI Designer</p><ul class="sectionthreeiconslist">
         <li class="sectionthreeicon"><a class="sectionthreelink" href="instagram"><svg class="svg" width="16" height="16">
                 <use href="./images/icons.svg#icon-instagram"> </use>
@@ -130,36 +187,36 @@
 <section class="section"><div class="container">
     <h2 class="headertwo">Our Portfolio</h2>
     <ul class="sectionfourlist">
-        <li class="sectionfour-li"><div class="sectionfourpic"><img src="./images/ProjectCard1.jpg" alt="banking" width="360" /><p class="sectionfourtext">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
+        <li class="sectionfour-li"><div class="sectionfourpic"><img srcset="./images/ProjectCard1.jpg 1x, ./images/ProjectCard1-2x.jpg 2x" src="./images/ProjectCard1.jpg" alt="banking" width="360" /><p class="sectionfourtext">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
             Exotic Fruit Ecommerce App ·
             Cloud Storage App</p></div>
             <div class="containerlist-four"><h3 class="sectiontwo-list-header">Banking App</h3>
             <p class="text">App</p></div>
         </li>
-        <li class="sectionfour-li"><div class="sectionfourpic"><img src="./images/ProjectCard2.jpg" alt="cashless" width="360" /><p class="sectionfourtext">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
+        <li class="sectionfour-li"><div class="sectionfourpic"><img srcset="./images/ProjectCard2.jpg 1x, ./images/ProjectCard2-2x.jpg 2x" src="./images/ProjectCard2.jpg" alt="cashless" width="360" /><p class="sectionfourtext">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
             Exotic Fruit Ecommerce App ·
             Cloud Storage App</p></div>
             <div class="containerlist-four"><h3 class="sectiontwo-list-header">Cashless Payment</h3>
             <p class="text">Marketing</p></div>
         </li>
-        <li class="sectionfour-li"><div class="sectionfourpic"><img src="./images/ProjectCard3.jpg" alt="meditation" width="360" /><p class="sectionfourtext">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
+        <li class="sectionfour-li"><div class="sectionfourpic"><img srcset="./images/ProjectCard3.jpg 1x, ./images/ProjectCard3-2x.jpg 2x" src="./images/ProjectCard3.jpg" alt="meditation" width="360" /><p class="sectionfourtext">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
             Exotic Fruit Ecommerce App ·
             Cloud Storage App</p></div>
             <div class="containerlist-four"><h3 class="sectiontwo-list-header">Meditation App</h3>
             <p class="text">App</p></div>
         </li>
-        <li class="sectionfour-li"><div class="sectionfourpic"><img src="./images/ProjectCard4.jpg" alt="taxi" width="360" /><p class="sectionfourtext">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
+        <li class="sectionfour-li"><div class="sectionfourpic"><img srcset="./images/ProjectCard4.jpg 1x, ./images/ProjectCard4-2x.jpg 2x" src="./images/ProjectCard4.jpg" alt="taxi" width="360" /><p class="sectionfourtext">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
             Exotic Fruit Ecommerce App ·
             Cloud Storage App</p></div>
             <div class="containerlist-four"><h3 class="sectiontwo-list-header">Taxi Service</h3>
             <p class="text">Marketing</p></div></li>
-            <li class="sectionfour-li"><div class="sectionfourpic"><img src="./images/ProjectCard5.jpg" alt="ilustrations" width="360" /><p class="sectionfourtext">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
+            <li class="sectionfour-li"><div class="sectionfourpic"><img srcset="./images/ProjectCard5.jpg 1x, ./images/ProjectCard5-2x.jpg 2x" src="./images/ProjectCard5.jpg" alt="ilustrations" width="360" /><p class="sectionfourtext">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
                 Exotic Fruit Ecommerce App ·
                 Cloud Storage App</p></div>
                 <div class="containerlist-four"><h3 class="sectiontwo-list-header">Screen Illustrations</h3>
                 <p class="text">Design</p></div>
             </li>
-            <li class="sectionfour-li"><div class="sectionfourpic"><img src="./images/ProjectCard6.jpg" alt="courses" width="360" /><p class="sectionfourtext">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
+            <li class="sectionfour-li"><div class="sectionfourpic"><img srcset="./images/ProjectCard6.jpg 1x, ./images/ProjectCard6-2x.jpg 2x" src="./images/ProjectCard6.jpg" alt="courses" width="360" /><p class="sectionfourtext">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
                 Exotic Fruit Ecommerce App ·
                 Cloud Storage App</p></div>
                 <div class="containerlist-four"><h3 class="sectiontwo-list-header">Online Courses</h3>

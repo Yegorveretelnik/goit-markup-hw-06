@@ -129,20 +129,33 @@ h1, h2, h3, p
   
   @media screen and (min-width: 768px) {
     .sectiontwolist {
-        gap: 24px;
+      gap: 24px;
       flex-direction: row;
       flex-wrap: wrap;
     }
   }
  
-
-
-.sectionthreelist
-{
-gap: 24px;
-padding: 0
-
+  .sectionthreelist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .sectionthreelist {
+      gap: 64px 24px;
+      flex-flow: row wrap;
     }
+  }
+  @media screen and (min-width: 1158px) {
+    .sectionthreelist {
+      gap: 24px;
+    }
+  }
+
+
 
 
 .sectionthree-li {
@@ -655,10 +668,22 @@ justify-content: center;
             
 }
 
-.sectionfour-li  {
-
+.sectionfour-li {
+    max-width: 288px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  }
+  
+  @media screen and (min-width: 768px) {
+    .sectionfour-li {
+      width: calc((100% - 24px) / 2);
+    }
+  }
+  @media screen and (min-width: 1158px) {
+    .sectionfour-li {
+      max-width: calc((100% - 48px) / 3);
+    }
+  }
+
 
 .sectionfourpic {
 

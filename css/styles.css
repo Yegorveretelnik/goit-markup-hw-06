@@ -357,7 +357,6 @@ ul {
             rgba(46,47,66,  0.7),
             rgba(46, 47,66, 0.7)),
             url(../images/peopleoffice1-phone.jpg);
-            max-width: 320px;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover
@@ -379,7 +378,6 @@ ul {
         @media screen and (min-width: 768px) {
             .sectionone {
                 padding: 112px 0;
-                max-width: 768px;
               background-image: linear-gradient(
                   to bottom,
                   rgba(46, 47, 66, 0.7),
@@ -440,7 +438,7 @@ ul {
     overflow: hidden;
 }
  .container {
-     max-width: 320px;
+    max-width: 320px;
      padding-left: 16px;
      padding-right: 16px;
      margin: 0 auto;
